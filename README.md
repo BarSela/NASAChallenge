@@ -1,9 +1,10 @@
 # NASAChallenge
+part of nasa's hackathon 2022 israel
 
 ## General info
 This project creats a web page to make art with nasa photos
 
-##name of the Challenge
+## name of the Challenge
 The art in our worlds
 
 ## Prerequisites
@@ -35,3 +36,4 @@ npm run dev
 
 Your application should run on port 8000 with the development environment configuration, so in your browser just go to http://localhost:8000 
 
+##IT'S TIME TO MAKE SPACE
