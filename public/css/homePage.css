@@ -97,6 +97,10 @@
   top: 50%;
   left: 8%;
   transform: translateY(-50%);
+  background-color: #000000;
+  width: 1000px;
+  height: 250px;
+  border-radius: 25px;
 }
 h1 {
   color: white;
@@ -104,15 +108,16 @@ h1 {
   font-size: 75px;
 }
 h3 {
+  margin-right: 30px;
   font-weight: normal;
   letter-spacing: 2px;
   color: white;
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 span {
-  color: #2f7272;
+  color: #3540a0;
 }
 
 .btn-group {
@@ -209,9 +214,11 @@ button:hover {
   /* display: flex; */
   align-items: center;
   /* justify-content: space-around; */
-
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   width: 100%;
-  padding: 100px 0px;
+  padding: 30px 0px;
 }
 .title h2 {
   position: relative;
@@ -377,16 +384,32 @@ form .txt_field {
   text-decoration: underline;
 }
 input[type="submit"] {
-  width: 100%;
+  width: 100px;
   height: 50px;
   border: 1px solid;
-  background: #2f7272;
+  background: #3540a0;
   border-radius: 25px;
   font-size: 18px;
   color: #e9f4fb;
   font-weight: 700;
   cursor: pointer;
   outline: none;
+}
+input[type="text"] {
+  width: 670px;
+  height: 50px;
+  border: 1px solid;
+  background: #cfcfcf;
+  border-radius: 35px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  margin-right: 20px;
+  margin-left: 60px;
+  margin-top: 20px;
+
 }
 input[type="submit"]:hover {
   border-color: #2f7272;
@@ -404,6 +427,12 @@ input[type="submit"]:hover {
 }
 .signup-link a:hover {
   text-decoration: underline;
+}
+.titlen{
+ color: white;
+ font-size: 50px;
+ margin-top: 20px; 
+ margin-left: 300px;
 }
 /*End Login page*/
 
