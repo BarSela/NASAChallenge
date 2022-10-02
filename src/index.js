@@ -19,3 +19,8 @@ app.listen(port, () => {
 app.get("/", (req, res) => {
   res.render("pages/home");
 });
+
+app.get("/result", (req, res) => {
+  res.render("pages/result");
+});
+
